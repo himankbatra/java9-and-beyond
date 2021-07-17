@@ -16,6 +16,14 @@ repositories {
     mavenCentral()
 }
 
+sourceCompatibility = '16'
+targetCompatibility = '16'
+/*java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(16)
+    }
+}*/
+
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
@@ -26,7 +34,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'io.github.himankbatra.App'
+   // mainClass = 'io.github.himankbatra.App'
 }
 
 tasks.named('test') {

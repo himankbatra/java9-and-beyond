@@ -9,3 +9,12 @@
 
 rootProject.name = 'java9-and-beyond'
 include('app')
+include 'java9-modules'
+include 'java9-modules:patient-aggregator'
+include 'java9-modules:patient-billing'
+include 'java9-modules:patient-clinical'
+include 'java9-modules:patient-management'
+findProject(':java9-modules:patient-aggregator')?.name = 'patient-aggregator'
+findProject(':java9-modules:patient-billing')?.name = 'patient-billing'
+findProject(':java9-modules:patient-clinical')?.name = 'patient-clinical'
+findProject(':java9-modules:patient-management')?.name = 'patient-management'
