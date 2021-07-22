@@ -10,6 +10,7 @@ features beyond java 9
 - SafeVarags
 - StreamingApi
 - TryWithResources
+- Java 9 Modules
 
 **Java 10**
 
