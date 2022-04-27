@@ -6,10 +6,10 @@ features beyond java 9
 **Java 9** 
 
 - Immutable Collections
-- Private Methods
-- SafeVarags
+- Private Methods in Interfaces
+- SafeVarags Annotation
 - StreamingApi
-- TryWithResources
+- TryWithResources Enhancement
 - Java 9 Modules
 
 **Java 10**
@@ -41,4 +41,8 @@ features beyond java 9
 - InstanceOf Pattern Matching
 - String Content Block
 
-Sealed classes are still in Java 16 preview feature
+
+**Java 17**
+
+- Sealed Classes
+- Pattern Matching for switch (preview)
